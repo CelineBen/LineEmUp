@@ -1,0 +1,6 @@
+Application created by:
+	- Mario Marchal-Goulet
+	- Jill Perreault
+	- Celine Bensoussan 
+	
+This application was created in Winter of 2013 for a Software Engineering class taught by Lin Jensen at Bishop's University. 

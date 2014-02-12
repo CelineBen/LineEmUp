@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Line \'Em Up</string>
+    <string name="button_OK">Let\'s Play!</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="title_activity_grid">GridActivity</string>
+    <string name="close">Close</string>
+    <string name="exit">Exit</string>
+    <string name="help">How to play</string>
+    <string name="about">About</string>
+    <string name="quit">Quit</string>
+    <string name="back">Back</string>
+    <string name="reset">Reset</string>
+    <string name="restart">New Game</string>
+    <string name="display_winner">Display Winner</string>
+</resources>

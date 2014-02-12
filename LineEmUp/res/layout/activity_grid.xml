@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GridActivity" >
+
+    <com.example.LineEmUp.GameSurfaceView
+        android:id="@+id/GameSurfaceView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/PointsLayout"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    
+    <RelativeLayout
+        android:id="@+id/PointsLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ButtonsLayout"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/point_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/reset"
+            android:background="@drawable/points_red" />
+
+        <Button
+            android:id="@+id/point_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/help"
+            android:layout_toRightOf="@+id/point_1"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/points_yellow" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ButtonsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/reset"
+            style="@style/button_style"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.25"
+            android:onClick="resetAction"
+            android:text="@string/reset" />
+
+        <Button
+            android:id="@+id/new_game"
+            style="@style/button_style"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.25"
+            android:onClick="newGame"
+            android:text="@string/restart" />
+
+        <Button
+            android:id="@+id/help"
+            style="@style/button_style"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.25"
+            android:onClick="helpAction"
+            android:text="@string/help" />
+    </LinearLayout>
+
+    
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+Rules:
+
+* Players take turns dropping colored discs into a seven-column, six-row grid.
+ 
+* To drop a discs, a player touches a column of the grid.
+
+* The discs fall straight down, occupying the next available space within the column.
+
+* The objective of the game is to connect four of one's own discs of the same color next to each other vertically, horizontally, or diagonally before the opponent. 
+
+Good Luck.
