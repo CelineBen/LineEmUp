@@ -1,4 +1,5 @@
-ConnectFour
+Line 'Em Up
 ===========
 
-This is an Android Application that I developped in a team of 3. It is based on the Connect Four game.
+Line 'Em Up is an Android Application that I developped in a team of three.
+It is based on the Connect Four game.
